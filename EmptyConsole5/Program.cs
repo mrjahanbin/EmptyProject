@@ -1,11 +1,17 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
+using System.Threading.Tasks;
 
 namespace EmptyConsole5
 {
-    internal class Program
+    internal class Program : ProgramBase
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
+            var _DBContext = StartDb();
+            var Book = await _DBContext.Books.ToListAsync();
+
+
             Console.WriteLine("Hello World!");
         }
     }

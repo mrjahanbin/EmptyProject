@@ -1,7 +1,15 @@
+using EmptyDBDotNet6;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+ConfigurationManager Configuration = builder.Configuration;
 builder.Services.AddRazorPages();
+#region ConnectionString
+builder.Services.AddDbContext<DBContext>(option => option.UseSqlServer(Configuration.GetConnectionString("Test")));
+#endregion
 
 var app = builder.Build();
 

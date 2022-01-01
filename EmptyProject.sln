@@ -11,6 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmptyConsole6", "EmptyConso
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmptyConsole5", "EmptyConsole5\EmptyConsole5.csproj", "{6F7708E4-F73E-4C5F-A7EF-E592BEC755DA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataBase", "DataBase", "{3E7CF039-276E-460C-BBF2-A3DE32B4EBBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleEmpty6", "ConsoleEmpty6\ConsoleEmpty6.csproj", "{257336EA-E3BD-4DE8-9DF1-8ABAD3288A80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleEmpty5", "ConsoleEmpty5\ConsoleEmpty5.csproj", "{D61A113F-A349-478D-A7AB-DD494B74E8FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,9 +39,23 @@ Global
 		{6F7708E4-F73E-4C5F-A7EF-E592BEC755DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F7708E4-F73E-4C5F-A7EF-E592BEC755DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F7708E4-F73E-4C5F-A7EF-E592BEC755DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{257336EA-E3BD-4DE8-9DF1-8ABAD3288A80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{257336EA-E3BD-4DE8-9DF1-8ABAD3288A80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{257336EA-E3BD-4DE8-9DF1-8ABAD3288A80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{257336EA-E3BD-4DE8-9DF1-8ABAD3288A80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D61A113F-A349-478D-A7AB-DD494B74E8FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D61A113F-A349-478D-A7AB-DD494B74E8FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D61A113F-A349-478D-A7AB-DD494B74E8FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D61A113F-A349-478D-A7AB-DD494B74E8FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6EB56612-B734-42F7-830A-87B5E9A20E65} = {3E7CF039-276E-460C-BBF2-A3DE32B4EBBD}
+		{16BFC7B6-7E56-438C-8ABC-BF3F105BC0ED} = {3E7CF039-276E-460C-BBF2-A3DE32B4EBBD}
+		{AFBE7F5D-5152-4DC2-B557-A3EF88E9E0E6} = {3E7CF039-276E-460C-BBF2-A3DE32B4EBBD}
+		{6F7708E4-F73E-4C5F-A7EF-E592BEC755DA} = {3E7CF039-276E-460C-BBF2-A3DE32B4EBBD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DC73BA8E-0B67-4985-843D-2C30A2845A99}
