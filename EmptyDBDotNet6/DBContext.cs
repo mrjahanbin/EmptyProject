@@ -12,8 +12,7 @@ namespace EmptyDBDotNet6
         }
 
         public virtual DbSet<Book> Books { get; set; }
-        public virtual DbSet<Author> Authors { get; set; }
-        public virtual DbSet<BookAuthor> BookAuthors { get; set; }
+
 
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
